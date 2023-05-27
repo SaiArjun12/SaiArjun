@@ -9,7 +9,15 @@ const App=() => {
     setCounter((prevCounter)=>prevCounter+1);
   };
   const changeCircleColor=()=>{
-    const colors=["red","green","blue","yellow","orange","gray","red","black"];
+    const colors=["black","white",
+    "aqua",
+    "green",
+    "blue",
+    "yellow",
+    "magenta",
+    "cyan",
+    "orange",
+    "purple"];
     const randomColor=colors[Math.floor(Math.random()*colors.length)];
     setCircleColor(randomColor);
   };
