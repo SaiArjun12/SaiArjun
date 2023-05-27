@@ -9,12 +9,14 @@ import ButtonComponent from './ButtonComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <div style={{ backgroundColor: 'lightblue' }}>
   <React.StrictMode>
     <ComponentA/>
     {/* <ComponentB/> */}
      <ButtonComponent/>
       <App />
   </React.StrictMode>
+</div>
 );
 
 
